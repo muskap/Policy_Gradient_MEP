@@ -1,0 +1,20 @@
+helf cheetah trial 0 and 1 without MEP
+helf cheetah trial 2 with MEP (beta = 100)
+3, 4 with beta=100
+5, 6 with beta = 10
+7 with beta = 10 and 1e6 timesteps
+8,9 with beta = 10 and 1e6 timesteps
+10 is beta = 10 and 1e6 timesteps
+--------sq_ratio_divergence--------
+11 to 15 is beta = 10 and 1e6 timesteps
+16 to 20 is beta = 100 and 1e6 timesteps
+21 to 23 is beta = 1000 and 1e6 steps
+24 to 28 is beta annealed linearly from 10 to 1000 in 250 rollouts 1e6 timesteps
+29 to 32 is beta annealed from 10 to 1000 in 250 rollouts 1e6 timesteps and max_sq_ratio divergence constraint 1e-1
+33 is beta annealed from 10 to 1000 in 250 rollouts 1e6 timesteps and max_sq_ratio divergence constraint 1.0
+34 is beta annealed from 10 to 1000 in 250 rollouts 1e6 timesteps and sq_ratio_divergence constraint 1e-1
+35 is beta annealed from 10 to 1000 in 250 rollouts 1e6 timesteps and sq_ratio_divergence constraint 1e-2
+36 is beta annealed from 10 to 1000 in 250 rollouts 1e6 timesteps and sq_ratio_divergence constraint 1e-2
+37 is beta annealed from 10 to 1000 in 250 rollouts 1e6 timesteps and sq_ratio_divergence constraint 1e-2
+38 is beta annealed from 10 to 1000 in 250 rollouts 1e6 timesteps and sq_ratio_divergence constraint 1e-2, max_cg_iters=50
+39 is beta annealed from 10 to 1000 in 250 rollouts 1e6 timesteps and sq_ratio_divergence constraint 1e-2, max_cg_iters=20
